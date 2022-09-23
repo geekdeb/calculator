@@ -19,12 +19,12 @@
     box-shadow: inset 5px 5px 12px #ffffff,
                       5px 5px 12px rgba(0,0,0,0.16)  ;
     display: grid;
-    grid-template-columns: repeat(4,68px);
+    grid-template-columns: repeat(4,150px);
 }
 input{
     grid-column: span 4;
-    height: 70px;
-    width: 260px;
+    height: 100px;
+    width: 560px;
     background-color: #ECF0F3;
     box-shadow: inset -5px -5px 12px #FFFFFF,
                 inset  5px 5px 12px rgba(0, 0, 0,0.16) ;
@@ -37,21 +37,25 @@ input{
     margin: auto;
     margin-top: 40px;
     margin-bottom: 30px;
+    padding-right: 10px;
 }
 button{
-    height: 48px;
-    width: 48px;
+    height: 88px;
+    width: 88px;
     background-color: #ECF0F3;
     border: none;
     box-shadow: -5px -5px 12px #FFFFFF,
                 5px  5px 12px rgba(0, 0, 0,0.16);
 
     border-radius: 50%;
-    margin:10px;
-    font-size: 18px;
+    margin:40px 20px 0px 20px;
+    font-size: 48px;
 }
 .equal{
-    width: 115px;
+    width: 240px;
     border-radius: 40px;
     color: red;
+}
+.plus{
+    /* width: 280px; */
 }
